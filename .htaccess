@@ -1,0 +1,4 @@
+RewriteBase /
+RewriteRule ^/widget/no\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
